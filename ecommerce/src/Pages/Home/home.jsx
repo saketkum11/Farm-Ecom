@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 export function Home(){
-    return <div>Hello</div>
+    return <h1>This  is home.</h1>
 }
