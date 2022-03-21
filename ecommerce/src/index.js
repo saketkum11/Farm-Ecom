@@ -5,12 +5,13 @@ import App from "./App";
 import { makeServer } from "./server";
 import {BrowserRoute} from "react-router-dom"
 
+
 // Call make Server
 makeServer();
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRoute>
+  <BrowserRoute>
     <App />
     </BrowserRoute>
   </React.StrictMode>,
