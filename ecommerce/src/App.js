@@ -1,7 +1,7 @@
 import "./App.css";
 import logo from "./logo.png";
 import {Routes,Route} from "react-router-dom"
-import { NavBar } from "./component/Navbar/Navbar";
+
 import { Home } from "./Pages/Home/Home";
 import { Product } from "./Pages/Product/product"
 import { Wishlist } from "./Pages/Wishlist/Wishlist";
@@ -14,8 +14,6 @@ function App() {
   return (
     <div className="App">
 
-      <NavBar></NavBar>
-      <Home></Home>
       <Routes>
         <Route path="/"element={<Home></Home>}></Route>
         <Route path="/product"element={<Product></Product>}></Route>

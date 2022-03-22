@@ -1,10 +1,15 @@
 import React from "react";
 import { NavBar } from "../../component/Navbar/Navbar";
+import { Link } from "react-router-dom";
+
+
 export function Home(){
 return (
-<main class="wt-80 m-auto ">
+<>
+    <NavBar></NavBar>
+    <main class="wt-80 m-auto ">
     <div class="flex items-start justify-center h-lg m-y-11 position-rel">
-        <img src="/css/image/Egg.jpg" alt="" class="rounded-L object-content wt-100 h-100"/>
+        <img src="" alt="" class="rounded-L object-content wt-100 h-100" />
         <a href="/component/product/product.html" target="_blank"
             class="text-color-9 text-dec text-m rounded-m pd-x-9 pd-y-3 position-ab bg-black-1 p-t-7 p-lf-1">More</a>
     </div>
@@ -14,27 +19,27 @@ return (
     <section class="flex m-y-3 justify-around ">
         <div class=" wt-20 flex flex-column justify-center items-center  position-rel">
             <a href="/component/product/product.html" target="_blank">
-                <img src="/css/image/Egg.jpg" class="wt-100 h-100 object-content rounded-m" alt=""/>
+                <img src="/css/image/Egg.jpg" class="wt-100 h-100 object-content rounded-m" alt="" />
             </a>
             <span class=" position-ab text-color-0 text-m text-bold p-t-5">Egg and Meat </span>
 
         </div>
         <div class=" wt-20 flex justify-center position-rel">
             <a href="/component/product/product.html" target="_blank">
-                <img src="/css/image/Grain.jpg" class="wt-100 h-100 object-content rounded-m" alt=""/>
+                <img src="/css/image/Grain.jpg" class="wt-100 h-100 object-content rounded-m" alt="" />
             </a>
             <span class="position-ab  text-color-0 text-m text-bold p-t-5">Grain</span>
         </div>
         <div class="  wt-20 flex justify-center position-rel">
             <a href="/component/product/product.html" target="_blank">
-                <img src="/css/image/vegetable (2).jpg" class="wt-100 h-100 object-content rounded-m" alt=""/>
+                <img src="/css/image/vegetable (2).jpg" class="wt-100 h-100 object-content rounded-m" alt="" />
             </a>
             <span class="position-ab  text-color-0 text-m text-bold p-t-5">Vegetable</span>
 
         </div>
         <div class="rounded-s wt-20 flex justify-center position-rel">
             <a href="/component/product/product.html" target="_blank"> <img src="/css/image/strawberri.jpg"
-                    class="wt-100 h-100 object-content rounded-m" alt=""/>
+                    class="wt-100 h-100 object-content rounded-m" alt="" />
             </a>
             <span class="position-ab  text-color-0 text-m text-bold p-t-5">Fruits</span>
         </div>
@@ -59,5 +64,6 @@ return (
     </section>
 
 </main>
+</>
 )
 }
