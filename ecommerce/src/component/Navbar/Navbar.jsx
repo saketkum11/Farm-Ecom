@@ -1,21 +1,15 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { Home } from "../../Pages/Home/home";
-import { Product } from "../../Pages/Product/product";
-import { Cart } from "../../Pages/Cart/Cart";
-import { Wishlist } from "../../Pages/Wishlist/Wishlist";
-import { Signup } from "../../Pages/auth/Signup";
-import { Login } from "../../Pages/auth/Login";
-import { Forgot } from "../../Pages/auth/Forgot";
+
 export function NavBar(){
-    return(<>
+    return(<div>
     <Link to="/">Home</Link>
     <Link to="/product">Product</Link>
-    <Link to="/cart"></Link>
-    <Link to="/wishlist"></Link>
-    <Link to="/signup"></Link>
-    <Link to="/login"></Link>
-    <Link to="/forgot"></Link>
-    </>);
+    <Link to="/cartlist">Cart</Link>
+    <Link to="/wishlist">Wishlist</Link>
+    <Link to="/signup">SignUp</Link>
+    <Link to="/login">Login</Link>
+    <Link to="/forgot">Forgot</Link>
+    </div>);
 
 }
