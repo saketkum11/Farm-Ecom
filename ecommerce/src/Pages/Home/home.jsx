@@ -62,7 +62,6 @@ return (
                 </div>
             </div>
         </section>
-
     </main>
 </>
 )
