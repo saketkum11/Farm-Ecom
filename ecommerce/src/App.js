@@ -1,7 +1,8 @@
 import "./App.css";
 import logo from "./logo.png";
 import {Routes,Route} from "react-router-dom"
-import { navBar } from "./component/Navbar/navbar";
+import { NavBar } from "./component/Navbar/Navbar";
+
 
 
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-    <navBar></navBar>
+      <NavBar></NavBar>
   
      
       <Routes>
